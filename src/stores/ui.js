@@ -7,15 +7,26 @@ class UIStore {
   @observable ISPsData = [];
   @computed
   get filteredISPs() {
+    let sortedArray;
     //Sort by
     if (this.sortBy === "name") {
-      return this.ISPsData.slice().sort((a, b) => {
+      sortedArray = this.ISPsData.slice().sort((a, b) => {
         return a.name - b.name;
       });
     } else
-      return this.ISPsData.slice().sort((a, b) => {
+      sortedArray = this.ISPsData.slice().sort((a, b) => {
         return a.lowest_price - b.lowest_price;
       });
+
+    if (this.searchQuery !== "") {
+      sortedArray = sortedArray.filter(
+        item =>
+          item.name
+            .toLowerCase()
+            .search(this.searchQuery.toLocaleLowerCase()) !== -1
+      );
+    }
+    return sortedArray;
   }
 }
 
