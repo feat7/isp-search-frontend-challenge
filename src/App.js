@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { render } from "react-dom";
 import { Router } from "react-router";
 import createBrowserHistory from "history/createBrowserHistory";
 import MainRoutes from "./routes/MainRoutes";

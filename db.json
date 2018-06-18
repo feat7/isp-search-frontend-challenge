@@ -1,0 +1,82 @@
+{
+  "isp": [
+    {
+      "id": 1,
+      "name": "Airtel",
+      "lowest_price": "json-server",
+      "rating": 4,
+      "max_speed": 40,
+      "description":
+        "Our internet plans are now available at never before prices. Get connection today!",
+      "contact": "080-44444121",
+      "email": "121@in.airtel.com",
+      "image": "https://www.airtel.in/assets/images/airtel-logo_opt.webp",
+      "url": "https://airtel.in"
+    },
+    {
+      "id": 2,
+      "name": "Airtel",
+      "lowest_price": "json-server",
+      "rating": 4,
+      "max_speed": 40,
+      "description":
+        "Our internet plans are now available at never before prices. Get connection today!",
+      "contact": "080-44444121",
+      "email": "121@in.airtel.com",
+      "image": "https://www.airtel.in/assets/images/airtel-logo_opt.webp",
+      "url": "https://airtel.in"
+    },
+    {
+      "id": 3,
+      "name": "Airtel",
+      "lowest_price": "json-server",
+      "rating": 4,
+      "max_speed": 40,
+      "description":
+        "Our internet plans are now available at never before prices. Get connection today!",
+      "contact": "080-44444121",
+      "email": "121@in.airtel.com",
+      "image": "https://www.airtel.in/assets/images/airtel-logo_opt.webp",
+      "url": "https://airtel.in"
+    },
+    {
+      "id": 4,
+      "name": "Airtel",
+      "lowest_price": "json-server",
+      "rating": 4,
+      "max_speed": 40,
+      "description":
+        "Our internet plans are now available at never before prices. Get connection today!",
+      "contact": "080-44444121",
+      "email": "121@in.airtel.com",
+      "image": "https://www.airtel.in/assets/images/airtel-logo_opt.webp",
+      "url": "https://airtel.in"
+    },
+    {
+      "id": 5,
+      "name": "Airtel",
+      "lowest_price": "json-server",
+      "rating": 4,
+      "max_speed": 40,
+      "description":
+        "Our internet plans are now available at never before prices. Get connection today!",
+      "contact": "080-44444121",
+      "email": "121@in.airtel.com",
+      "image": "https://www.airtel.in/assets/images/airtel-logo_opt.webp",
+      "url": "https://airtel.in"
+    },
+    {
+      "id": 5,
+      "name": "Airtel",
+      "lowest_price": "json-server",
+      "rating": 4,
+      "max_speed": 40,
+      "description":
+        "Our internet plans are now available at never before prices. Get connection today!",
+      "contact": "080-44444121",
+      "email": "121@in.airtel.com",
+      "image": "https://www.airtel.in/assets/images/airtel-logo_opt.webp",
+      "url": "https://airtel.in"
+    }
+  ]
+}
