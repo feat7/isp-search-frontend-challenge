@@ -5,9 +5,15 @@ import { inject, observer } from "mobx-react";
 @observer
 export default class ListISPs extends React.Component {
   render() {
+    if (this.props.isps.length === 0) return <div>No results found</div>;
     return this.props.isps.map((item, index) => {
       return (
-        <div key={index}>
+        <div
+          key={index}
+          onClick={() =>
+            this.props.store.routing.push(`/isp-detail/${item.id}`)
+          }
+        >
           <div className="card">
             <header className="card-header">
               <p className="card-header-title">{item.name}</p>

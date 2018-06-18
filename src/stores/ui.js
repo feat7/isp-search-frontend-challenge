@@ -1,10 +1,21 @@
 import { observable, computed } from "mobx";
+import { persist } from "mobx-persist";
 
 class UIStore {
   @observable ISPsLoaded = false;
+
   @observable sortBy = "name";
+
   @observable searchQuery = "";
-  @observable ISPsData = [];
+
+  @persist("list")
+  @observable
+  ISPsData = [];
+
+  @persist
+  @observable
+  fetchedFromPersist = false;
+
   @computed
   get filteredISPs() {
     let sortedArray;
