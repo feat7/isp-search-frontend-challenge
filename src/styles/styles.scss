@@ -16,12 +16,19 @@ $family-sans-serif: "Nunito", sans-serif;
 $grey-dark: $brown;
 $grey-light: $beige-light;
 $primary: $green;
-$link: $pink;
+$link: $green;
 
 // Update some of Bulma's component variables
 $control-border-width: 2px;
 $input-background-color: $beige-lighter;
 $input-border-color: transparent;
 $input-shadow: none;
+
+//Card
+.card {
+  &:hover {
+    background-color: #f7f1e3;
+  }
+}
 
 @import "../../node_modules/bulma/bulma";

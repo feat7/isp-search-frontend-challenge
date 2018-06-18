@@ -15,29 +15,29 @@
     },
     {
       "id": 2,
-      "name": "Airtel",
-      "lowest_price": "499",
+      "name": "BSNL",
+      "lowest_price": "299",
       "rating": 4,
-      "max_speed": 40,
+      "max_speed": 35,
       "description":
         "Our internet plans are now available at never before prices. Get connection today!",
       "contact": "080-44444121",
-      "email": "121@in.airtel.com",
+      "email": "123@bsnl.co.in",
       "image": "https://www.airtel.in/assets/images/airtel-logo_opt.webp",
-      "url": "https://airtel.in"
+      "url": "https://bsnl.in"
     },
     {
       "id": 3,
-      "name": "Airtel",
-      "lowest_price": "499",
+      "name": "Reliance JIO",
+      "lowest_price": "999",
       "rating": 4,
       "max_speed": 40,
       "description":
         "Our internet plans are now available at never before prices. Get connection today!",
       "contact": "080-44444121",
-      "email": "121@in.airtel.com",
+      "email": "121@jio.in",
       "image": "https://www.airtel.in/assets/images/airtel-logo_opt.webp",
-      "url": "https://airtel.in"
+      "url": "https://jio.in"
     },
     {
       "id": 4,

@@ -3,6 +3,7 @@ import { inject, observer } from "mobx-react";
 import axios from "axios";
 import { API_SERVER } from "../../config";
 import Header from "../../components/Header";
+import ListISPs from "../../components/ListISPs";
 import SearchBox from "../../components/SearchBox";
 
 @inject("store")
@@ -23,43 +24,47 @@ export default class HomeScreen extends Component {
     return (
       <div>
         <Header />
-        <div className="section">
-          <div className="container">
-            <div className="has-text-centered">
-              <SearchBox />
+        <div className="columns">
+          <div className="column is-2">
+            <div className="hero is-white">
+              <div className="section">
+                <div className="container">
+                  <h1 className="title">Sort by</h1>
+                  Sorted by {this.props.store.ui.sortBy} <br />
+                  <a
+                    className="has-text-primary"
+                    onClick={() => (this.props.store.ui.sortBy = "name")}
+                  >
+                    Name
+                  </a>{" "}
+                  <a
+                    className="has-text-primary"
+                    onClick={() => {
+                      this.props.store.ui.sortBy = "price";
+                    }}
+                  >
+                    Price
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-        <div className="container">
-          <div className="content">
-            {ListISPs(this.props.store.ui.ISPsData)}
+          <div className="column">
+            <div className="section">
+              <div className="container">
+                <div className="has-text-centered">
+                  <SearchBox />
+                </div>
+              </div>
+            </div>
+            <div className="container">
+              <div className="content">
+                <ListISPs isps={this.props.store.ui.filteredISPs} />
+              </div>
+            </div>
           </div>
         </div>
       </div>
     );
   }
 }
-
-const ListISPs = isps => {
-  return isps.map((item, index) => {
-    return (
-      <div key={index}>
-        <div class="card">
-          <header class="card-header">
-            <p class="card-header-title">{item.name}</p>
-          </header>
-          <div class="card-content">
-            <div class="content">{item.description}</div>
-          </div>
-          <footer class="card-footer">
-            <div class="card-footer-item">
-              Starting from ₹{item.lowest_price}
-            </div>
-            <div class="card-footer-item">Upto {item.max_speed} MBps</div>
-          </footer>
-        </div>
-        <br />
-      </div>
-    );
-  });
-};
