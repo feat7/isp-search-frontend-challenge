@@ -11,7 +11,10 @@ import SearchBox from "../../components/SearchBox";
 export default class HomeScreen extends Component {
   constructor(props) {
     super(props);
-    if (!this.props.store.ui.ISPsLoaded) {
+    if (
+      !this.props.store.ui.ISPsLoaded &&
+      !this.props.store.ui.fetchedFromPersist
+    ) {
       //Call API
       axios.get(`${API_SERVER}/isp`).then(response => {
         this.props.store.ui.ISPsData = response.data;
