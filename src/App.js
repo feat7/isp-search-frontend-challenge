@@ -5,6 +5,7 @@ import MainRoutes from "./routes/MainRoutes";
 import { Provider } from "mobx-react";
 import { syncHistoryWithStore } from "mobx-react-router";
 import store from "./stores";
+import "./styles/styles.css";
 
 const browserHistory = createBrowserHistory();
 const history = syncHistoryWithStore(browserHistory, store.routing);
