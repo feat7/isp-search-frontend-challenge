@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Airtel",
-      "lowest_price": "json-server",
+      "lowest_price": "499",
       "rating": 4,
       "max_speed": 40,
       "description":
@@ -16,7 +16,7 @@
     {
       "id": 2,
       "name": "Airtel",
-      "lowest_price": "json-server",
+      "lowest_price": "499",
       "rating": 4,
       "max_speed": 40,
       "description":
@@ -29,7 +29,7 @@
     {
       "id": 3,
       "name": "Airtel",
-      "lowest_price": "json-server",
+      "lowest_price": "499",
       "rating": 4,
       "max_speed": 40,
       "description":
@@ -42,7 +42,7 @@
     {
       "id": 4,
       "name": "Airtel",
-      "lowest_price": "json-server",
+      "lowest_price": "499",
       "rating": 4,
       "max_speed": 40,
       "description":
@@ -55,7 +55,7 @@
     {
       "id": 5,
       "name": "Airtel",
-      "lowest_price": "json-server",
+      "lowest_price": "499",
       "rating": 4,
       "max_speed": 40,
       "description":
@@ -68,7 +68,7 @@
     {
       "id": 5,
       "name": "Airtel",
-      "lowest_price": "json-server",
+      "lowest_price": "499",
       "rating": 4,
       "max_speed": 40,
       "description":
