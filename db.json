@@ -19,11 +19,11 @@
       "lowest_price": "299",
       "rating": 4,
       "max_speed": 35,
-      "description":
-        "Our internet plans are now available at never before prices. Get connection today!",
+      "description": "BSNL. Connecting India. Best broadband services.",
       "contact_no": "080-44444121",
       "email": "123@bsnl.co.in",
-      "image": "https://www.airtel.in/assets/images/airtel-logo_opt.webp",
+      "image":
+        "http://www.bsnl.co.in/opencms/export/sites/default/BSNL/press_room/images/BSNLBroadband.jpg",
       "url": "https://bsnl.in"
     },
     {
@@ -41,14 +41,14 @@
     },
     {
       "id": 4,
-      "name": "Airtel",
-      "lowest_price": "499",
+      "name": "Tikona",
+      "lowest_price": "199",
       "rating": 4,
-      "max_speed": 40,
+      "max_speed": 30,
       "description":
-        "Our internet plans are now available at never before prices. Get connection today!",
-      "contact_no": "080-44444121",
-      "email": "121@in.airtel.com",
+        "Changed description for Tikona. We are here with affordable price.",
+      "contact_no": "080-55444121",
+      "email": "121@tikona.com",
       "image": "https://www.airtel.in/assets/images/airtel-logo_opt.webp",
       "url": "https://airtel.in"
     },
