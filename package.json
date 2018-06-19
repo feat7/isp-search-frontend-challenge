@@ -1,5 +1,6 @@
 {
   "name": "fullstack-challenge",
+  "homepage": "https://feat7.me/isp-search-frontend-challenge",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -29,6 +30,10 @@
     "build-js": "react-scripts build",
     "build": "npm-run-all build-css build-js",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
   }
 }
