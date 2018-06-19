@@ -84,7 +84,7 @@ export default class ISPDetail extends React.Component {
               <div className="subtitle">Speed upto {isp.max_speed} MBps</div>
               <div>{isp.description}</div>
               <div>
-                <i className="fa fa-phone" /> {isp.contact}
+                <i className="fa fa-phone" /> {isp.contact_no}
               </div>
               <div>
                 <i className="fa fa-envelope" /> {isp.email}
