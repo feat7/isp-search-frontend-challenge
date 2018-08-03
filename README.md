@@ -34,10 +34,6 @@ Vinay Khobragade
 
 Prettier along with react-app settings for eslint is used.
 
-# Live Demo
-
-Check out [live demo here](http://104.236.45.110)
-
 # Known issues
 
 Since the live demo is hosted on ip (sadly, no SSL), some browsers may stuck on loading screen. That is because browsers tend to load only `https` ajax requests.
